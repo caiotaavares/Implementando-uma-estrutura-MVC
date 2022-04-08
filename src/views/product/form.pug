@@ -1,0 +1,12 @@
+html 
+    head 
+        titile Formulário de produtos 
+    body 
+        h1 Formulário de produtos 
+        // Link para a listagem de produtos
+        a(href="/products") Listagem de produtos 
+        // Realiza o post em /products/create
+        form(action='/products/create', method='post')
+            label Nome do produto 
+                input(name='name',required,type='text')
+            button(type='submit') Salvar 

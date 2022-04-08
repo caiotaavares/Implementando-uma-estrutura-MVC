@@ -1,0 +1,17 @@
+{
+  "name": "implementandoArcMVC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "nodemon ./src"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "sequelize": "^6.18.0",
+    "sqlite3": "^5.0.2"
+  }
+}
